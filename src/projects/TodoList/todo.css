@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(65, 65, 68);
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.inner-container {
+  background-color: rgb(107, 107, 116);
+  height: 75%;
+  width: 75%;
+  border: 1px solid whitesmoke;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: rgb(240, 236, 236);
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.main-heading {
+  margin-top: 2rem;
+  background-color: rgb(102, 100, 100);
+  color: rgb(226, 223, 223);
+  border-radius: 5px;
+  border: 2px solid rgb(100, 99, 99);
+}
+
+.enter-task {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #b19f7fd6;
+}
+
+input {
+  display: block;
+  padding: 0.4rem 3rem;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  border: 2px solid whitesmoke;
+  font-size: 1.1rem;
+}
+
+button {
+  font-size: 1.1rem;
+  margin-top: -1rem;
+  padding: 0.45rem 1.2rem;
+  border-radius: 5px;
+  background-color: #cca663d6;
+  color: rgb(235, 240, 240);
+  border: 1px solid rgb(223, 217, 217);
+  margin-left: 1rem;
+}
+
+.task-container {
+  border: 1px solid rgb(126, 124, 124);
+  padding: 3rem 2rem;
+  display: flex;
+  background-color: rgba(160, 159, 159, 0.233);
+  margin: 1rem 2rem;
+  border-radius: 5px;
+  min-height: 20rem;
+  flex-wrap: wrap;
+}
+.task-box {
+  width: 16rem;
+  min-height: 10rem;
+  border: 1px solid white;
+  background-color: rgba(180, 179, 170, 0.678);
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 1.1rem;
+  color: rgb(0, 0, 0);
+  margin-right: 3rem;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.delete-btn {
+  padding: 0.15rem 0.5rem;
+  border-radius: 50%;
+  font-weight: 700;
+  text-align: center;
+  margin-left: 0;
+  position: absolute;
+  top: 1.5rem;
+  right: 0.5rem;
+}
+
+.task {
+  margin: 1rem;
+  text-align: center;
+  width: 14rem;
+  margin-right: 0;
+  margin-top: 3rem;
+  text-transform: capitalize;
+}
